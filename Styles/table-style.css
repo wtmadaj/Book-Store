@@ -1,0 +1,28 @@
+@media only screen and (min-width: 1344px) {
+	tr {
+		width: calc(33% - 44px);
+	}
+}
+@media only screen and (min-width: 1024px) {
+	tr {
+		width: calc(50% - 44px);
+	}
+}
+
+table {
+	border-collapse: collapse;
+	font-size: 14px;
+	width: 100%;
+}
+th, tr.table-headers {
+	visibility: hidden;
+}
+tr {
+	display: inline-block;
+	margin: 10px;
+	border: 1px solid #efefef;
+	padding: 10px;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+	vertical-align: top;
+
+}
